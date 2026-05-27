@@ -47,7 +47,7 @@ export default function RootLayout({
   return (
     <ConvexAuthNextjsServerProvider>
         <html lang="en">
-          <body
+          <body suppressHydrationWarning
             className={cn(
               "min-h-screen bg-background font-sans antialiased",
               fontSans.variable, // Use the sans-serif font
